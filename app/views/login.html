@@ -1,0 +1,12 @@
+<div class="container-fluid">
+    <h2>Login page</h2>
+
+    <h4>Please select a role</h4>
+    <select class="form-control" ng-model="userRoleSelect" ng-options="userRole.name for userRole in userRoles">
+        <option value="">--- Please select a role ---</option>
+    </select>
+
+    <br/>
+
+    <button class="btn btn-primary">Login!</button>
+</div>
